@@ -36,22 +36,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
   * [No Starch Press](#no-starch-press)
   * [O'Reilly](#oreilly)
   * [Packt Pub](#packt-pub)
-* [Hardware](#hardware)
-  * [Raspberry Pi](#raspberry-pi)
-  * [Arduino](#arduino)
-  * [BBC microbit](#bbc-microbit)
-  * [Pyboard](#pyboard)
-  * [ESP32](#esp32)
-  * [Adafruit CircuitPython](#adafruit-circuitpython)
-
-## Roadmaps
-
-* [Python Learning Paths](https://realpython.com/learning-paths/) - Real Python’s accelerated study plans for beginner, intermediate, and advanced Python developers.
-* [A realistic roadmap to becoming a Python developer](https://hackernoon.com/a-realistic-roadmap-to-becoming-a-python-developer-ab5872959509) - a highly opinionated, pseudo-motivational, unconventional and almost rant-like developer roadmap article.
-* [5 Steps to Learning Python the Right Way](https://www.dataquest.io/blog/learn-python-the-right-way/) - Dataquest take on Python learning roadmap.
-* [Best Way to Learn Python (Step-by-Step Guide)](https://simpliv.wordpress.com/2019/06/27/best-way-to-learn-python-step-by-step-guide/) - path of learning Python into 6 levels.
-
-## Courses and lessons
+* [Hardware](#hardware) - programming environment for tiny Python 3 projects, that can be embedded in web pages (using [Brython](https://brython.info/))
 
 ### Interactive environments
 
@@ -74,6 +59,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [Codesters](https://www.codesters.com/)
 * [Pyfiddle](https://pyfiddle.io/)
 * [Code the blocks](https://codetheblocks.com/) - interactive playground for learning how to code.
+* [Pythonpad.js](https://pythonpad.github.io/) - programming environment for tiny Python 3 projects, that can be embedded in web pages (using [Brython](https://brython.info/))
 
 ### MOOCs
 
@@ -93,11 +79,13 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 ### Introductions and Tutorials
 
 * [The Hello World Program: Learn Python](https://thehelloworldprogram.com/python/)
+* [Practical Python Programming (course by @dabeaz)](https://github.com/dabeaz-course/practical-python)
 * [Introduction to Python](http://introtopython.org/)
 * [NewCoder](http://newcoder.io/)
 * [Python tutorial](https://pythonspot.com/)
 * [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/) - from [Software Carpentry](http://software-carpentry.org/)
 * [Introduction to Programming with Python](http://opentechschool.github.io/python-beginners/en/index.html)
+* [Python Land](https://python.land/)
 * [Python Course](http://www.python-course.eu/)
 * [The Programming Historian](http://programminghistorian.org/lessons/)
 * [Program Arcade Games With Python And Pygame](http://www.programarcadegames.com/)
@@ -124,6 +112,9 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [Dead Simple Python](https://dev.to/codemouse92/introducing-dead-simple-python-563o) - from beginners to python (not programming).
 * [Learn Python](https://learnpython.dev/) - Introduction and Intermediate Python, recorded for Frontend Masters by Nina Zakharenko.
 * [The Cracking Python Bootcamp](https://github.com/purcellconsult/Cracking-Python-Bootcamp) - Learn How to Code in Python in 12 Weeks By Building Fun Real World Projects.
+* [w3schools Python tutorial](https://www.w3schools.com/python/)
+* [Geeks for geeks Python tutorial](https://www.geeksforgeeks.org/python-programming-language/)
+* [Ultimate Python](https://github.com/huangsam/ultimate-python) - study guide for newcomers and professionals alike.
 
 ### Data Science
 
@@ -157,7 +148,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [PyBites](http://pybit.es/) - [PyBites Code Challenges Platform](https://codechalleng.es/)
 * [Practice Python](http://www.practicepython.org/)
 * [Python Challenge](http://www.pythonchallenge.com/)
-* [Python for Fun](http://openbookproject.net/py4fun/)
+* [Python for Fun](http://openbookproject.net/courses/python4fun/)
 * [CodingBat](http://codingbat.com/python)
 * [Reeborg's world](http://reeborg.ca/index_en.html)
 * [Python Koans](https://github.com/gregmalcolm/python_koans)
@@ -174,6 +165,8 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [CodingGame](https://www.codingame.com)
 * [CodeFights](https://codefights.com/)
 * [Edabit Python Challenges](https://edabit.com/challenges/python3)
+* [futurecoder](https://futurecoder.io/) - interactive beginner exercises - [gh repo](https://github.com/alexmojaki/futurecoder)
+* [DevProjects - Python Projects](https://www.codementor.io/python-projects) - Learn programming with curated Python projects
 
 ## Reference and forums
 
@@ -280,19 +273,22 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 
 ### Games, graphics and simulation
 
+* [Jupylet](https://github.com/nir/jupylet) - Create 2D and 3D games, graphics, live music and sound synthesizers, interactively in a Jupyter notebook.
 * [PyGame](http://www.pygame.org/)
 * [Pygame Zero](https://pygame-zero.readthedocs.io) for creating games without boilerplate
 * [Python Arcade Library](http://arcade.academy/)
 * [Pyglet](http://www.pyglet.org/) - a pure python cross-platform application framework intended for game development
 * [Python Mode for Processing](http://py.processing.org/)
-* [PythonTurtle](http://pythonturtle.org/)
+* [PythonTurtle](http://pythonturtle.org/) - A learning environment for Python programming suitable for beginners and children, inspired by Logo. Easy installer for Windows so it could be installed by children on computers without internet access.
 * [A Simple Tutorial for Python's turtle.py Module](https://github.com/asweigart/simple-turtle-tutorial-for-python/blob/master/simple_turtle_tutorial.md)
 * [VPython](http://vpython.org/) - 3D programming
 * [Pymunk](http://www.pymunk.org/) - 2D physics library
 * [PyPhysicsSandbox](https://github.com/jshaffstall/PyPhysicsSandbox) - a simple wrapper around Pymunk
 * [Kivy](https://kivy.org/) - innovative user interfaces, such as multi-touch apps
 * [PyQT 15 minute apps](https://github.com/mfitzp/15-minute-apps) - 15 minute (small) desktop apps built with PyQt
+* [PyQt5 tutorial](https://www.learnpyqt.com/) - Create GUI applications with Python
 * [Panda3D](http://www.panda3d.org/) - game engine and framework for 3D rendering
+* [Ursina Engine](https://www.ursinaengine.org/) -  game engine based on Panda3D but really easy-to-use. Great for beginners in 3D game coding.
 * [gui zero](https://lawsie.github.io/guizero/) - to allow children to quickly and easily create GUIs for their programs
 * [Free Python Games](http://www.grantjenks.com/docs/freegames/) - collection of free Python games intended for education and fun
 * [Angry Birds in Python](https://github.com/estevaofon/angry-birds-python) - using pygame and pymunk
@@ -330,7 +326,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
   * [TLJH: The Littlest JupyterHub](https://tljh.jupyter.org/en/latest/) - documentation for "a simple JupyterHub distribution for a small (0-100) number of users on a single server"
   * [jupyterhub-deploy-teaching](https://github.com/jupyterhub/jupyterhub-deploy-teaching) - reference deployment of JupyterHub and nbgrader on a single server
 * [jupyterlab/JupyterLab](https://github.com/jupyterlab/jupyterlab) - rewrite of Jupyter Notebook with tabs, extensions, command list
-  * [JupyterLab Documentation](https://jupyterlab-tutorial.readthedocs.io/)
+  * [JupyterLab Documentation](https://jupyterlab.readthedocs.io/)
 * [mybinder.org](https://mybinder.org/) - "Binder": generate a container from a git repository (or a DOI) with repo2docker and run it in the cloud
   * [jupyterhub/binderhub](https://github.com/jupyterhub/binderhub/) - BinderHub is the application that powers https://mybinder.org (on k8s)
   * [jupyter/repo2docker](https://github.com/jupyter/repo2docker) - generate Jupyter-enabled Docker Images from repositories
@@ -349,6 +345,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [CoCalc's comparison of Online Jupyter Notebook services](https://cocalc.com/doc/compare.html)
 * [CoCalc](https://doc.cocalc.com/) - Jupyter notebook environment with Course Management, Handouts, Assignments, nbgrader, Time Travel history, chat
 * [Google Colab](https://colab.research.google.com/) - Jupyter notebook environment for machine learning education and research (requires no setup to use)
+* [IllumiDesk](https://www.illumidesk.com) - Jupyter notebook environment with LMS integration via LTI 1.1/1.3.
 * JupyterHub, BinderHub
 
 ### Jupyter Tools
@@ -387,7 +384,6 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [GitHub Trending Jupyter Notebooks](https://github.com/trending/jupyter-notebook)
 * [Jupyter Notebook cheatsheet](https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/)
 * [Jupyter tips, tricks and shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
-* [Notebook Gallery](http://nb.bianp.net/sort/views/) - links to the best IPython and Jupyter Notebooks
 * [IPythonBlocks](http://ipythonblocks.org/)
 * [Using the IPython Notebook as a Teaching Tool](https://software-carpentry.org/blog/2013/03/using-notebook-as-a-teaching-tool.html)
 * [LTI Launch JupyterHub Authenticator](https://github.com/jupyterhub/ltiauthenticator) - Implements LTI v1 authenticator for use with JupyterHub
@@ -444,7 +440,7 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [Python Programming in one video](https://www.youtube.com/watch?v=N4mEzFDjqtA) - [Learn to Program with Python](https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt) Derek Banas playlist
 * [CPython internals: A ten-hour codewalk through the Python interpreter source code](http://pgbovine.net/cpython-internals.htm)
 * [Teaching Python: The Hard Parts](http://pyvideo.org/pycon-us-2016/elana-hashman-teaching-python-the-hard-parts-pycon-2016.html) - PyCon 2016
-* [Episode 14 – Allen Downey on Teaching Computer Science with Python](https://www.podcastinit.com/episode-14-allen-downey-on-teaching-computer-science-with-python/) from [podcast.\__init__('Python')](https://www.podcastinit.com/)
+* [Episode 14 – Allen Downey on Teaching Computer Science with Python](https://www.pythonpodcast.com/episode-14-allen-downey-on-teaching-computer-science-with-python/) from [podcast.\__init__('Python')](https://www.pythonpodcast.com/)
 * [Python For Informatics](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj4JXIwMwN1_ss1Tk8wZShEJ)
 * [Python for Everybody - Exploring Information](https://www.youtube.com/playlist?list=PLlRFEj9H3Oj7Bp8-DfGpfAfDBiblRfl5p)
 * [sentdex youtube playlists](https://www.youtube.com/user/sentdex/playlists) or via [Python Programming](https://pythonprogramming.net/)
@@ -523,6 +519,8 @@ Sparkline (GitHub stars velocity): [![Sparkline](https://stars.medv.io/quobit/aw
 * [Learn Programming with Python](https://www.manning.com/books/learn-programming-with-python)
 * [Grokking Algorithms](https://www.manning.com/books/grokking-algorithms) - An illustrated guide for programmers and other curious people.
 * [Practices of the Python Pro](https://www.manning.com/books/practices-of-the-python-pro) - Professional software development principles and best practices for beginning developers.
+* [The Well-Grounded Python Developer](https://www.manning.com/books/the-well-grounded-python-developer) - Helping programmers who know Python become and think like developers.
+* [Tiny Python Projects](https://www.manning.com/books/tiny-python-projects) - An introduction to Python fundamentals through puzzles and games.
 
 ### No Starch Press
 
